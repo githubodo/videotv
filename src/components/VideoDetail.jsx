@@ -26,6 +26,7 @@ const VideoDetail = () => {
 
   return (
     <Box minHeight="95vh">
+	<title>{title}</title>
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
